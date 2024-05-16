@@ -1,4 +1,6 @@
-﻿public class Booking
+﻿namespace ConsoleApp.MiniCinemaTicketBookingSystem.Models;
+
+public class Booking
 {
     public Movie Movie { get; set; }
     public DateTime Showtime { get; set; }

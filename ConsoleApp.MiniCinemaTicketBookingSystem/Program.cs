@@ -1,4 +1,7 @@
-﻿List<Movie> movies = new List<Movie>(); // Replace with data population logic
+﻿using ConsoleApp.MiniCinemaTicketBookingSystem.Models;
+using ConsoleApp.MiniCinemaTicketBookingSystem.Services;
+
+List<Movie> movies = new List<Movie>(); // Replace with data population logic
 while (true)
 {
     Console.WriteLine("Welcome to Cinema Booking System!");

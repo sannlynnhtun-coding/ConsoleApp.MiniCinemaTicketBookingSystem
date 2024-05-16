@@ -1,4 +1,6 @@
-﻿public class Movie
+﻿namespace ConsoleApp.MiniCinemaTicketBookingSystem.Models;
+
+public class Movie
 {
     public string Title { get; set; }
     public string Description { get; set; }

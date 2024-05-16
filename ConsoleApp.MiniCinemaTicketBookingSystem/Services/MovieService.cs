@@ -1,4 +1,8 @@
-﻿public static class MovieService
+﻿using ConsoleApp.MiniCinemaTicketBookingSystem.Models;
+
+namespace ConsoleApp.MiniCinemaTicketBookingSystem.Services;
+
+public static class MovieService
 {
     public static void ListMovies(List<Movie> movies)
     {
